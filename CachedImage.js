@@ -9,6 +9,7 @@ const PropTypes = require('prop-types');
 const ImageCacheManagerOptionsPropTypes = require('./ImageCacheManagerOptionsPropTypes');
 
 const flattenStyle = ReactNative.StyleSheet.flatten;
+import NetInfo from "@react-native-community/netinfo";
 
 const ImageCacheManager = require('./ImageCacheManager');
 
@@ -16,7 +17,6 @@ const {
     View,
     ImageBackground,
     ActivityIndicator,
-    NetInfo,
     Platform,
     StyleSheet,
 } = ReactNative;
