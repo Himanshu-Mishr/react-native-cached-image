@@ -2,8 +2,7 @@
 
 const _ = require('lodash');
 
-// const RNFetchBlob = require('react-native-fetch-blob').default;
-import RNFetchBlob from "rn-fetch-blob";
+const RNFetchBlob = require('react-native-fetch-blob').default;
 
 const {
     fs
